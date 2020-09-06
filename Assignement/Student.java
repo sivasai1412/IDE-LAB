@@ -21,7 +21,6 @@ public class Student
             System.out.print("Enter Marks you have secured in Subject "+i +"out of 100 :");
             marks[i] = sc.nextInt();
         }
-    int tot = 0;
     System.out.println("Details of the student \n Name: "+ name+ "\nPhone number: "+ phone+ "\nAddress: "+address +"\n");
 	for(int i = 1; i <= n; i++){
 	    System.out.println("Marks secured in the subject"+ i+ " "+ marks[i]);
